@@ -8,3 +8,6 @@ Put all your Linux Commmands in the Readme File
 
 @desc 2. Command to create file
 ```touch {filename}```
+
+@desc 3. Command to list all files
+```ls -a```
