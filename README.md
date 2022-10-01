@@ -11,3 +11,6 @@ Put all your Linux Commmands in the Readme File
 
 @desc 3. Command to list all files
 ```ls -a```
+
+@desc 4. Command to delete a file
+```rm {filename}```
