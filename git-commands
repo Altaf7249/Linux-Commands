@@ -1,0 +1,56 @@
+`This is my first commit
+now second commit
+commands in git`
+
+1. `git status`
+2. `git init`
+3. `git add --a or git add . or git add <file name.extension>`
+4. `git commit -m "MSG IS GIVEN FOR mODIFICATION"`
+5. `git log`
+6. `rm -rf .git #{to delete any git file }`
+7. `git clone <copied url> <optional if need to change folder name>`
+8. `touch .gitignore`
+9. `touch error.log`
+
+`#to ignore files we use .gitignore  and put (error.log)
+anf for directory /Dir`
+
+1. `git diff (this command helps in comparing the two versions of file
+ for eg file on stages and file modified
+<<in tech nowledge it compares staging area with working directory`
+2. `git diff --staged (this command compares the versiond befor ethe
+ last commiteted time`
+3. `git commit -a -m "this skips the staging part" #it means that we will 
+not commit untracked files only
+tracked files will be committed we are not staging the untracked files`
+4. `git rm <file name> #to remove any file`
+5. `git mv <file name> <new file name you wanted> #this is to rename a file`
+6. `git rm --cached <file name> # this command is used when we have to untrack a file
+    and add to.gitignore`
+7. `git log --pretty=oneline`
+8. `git log --since=2.days`
+9. `git log --pretty=format:"%h -- %an"`
+10. `git commit --amend`
+11. `git restore <file name.extension> #to usnatge a file`
+12. `git checkout -- <filename.extension>`
+13. `git checkout -f`
+14. `REMOVING ORIGIN FROM GITHUB : GIT REMOTE REMOVE ORIGIN`
+15. git reset --hard  ( it will reset the changes to last commit )
+16. git checkout dev   (this will take to you dev branch)
+17. git checkout -b celery-beats  (this will create a new branch name celery-beats
+17. git stash  (this will hold all the changes made in your current branch)
+18. git stash pop (this will give all the changes that you made on your branch)
+19. git restore --staged <file.name> (this will unstage a file)
+
+`PUSHING ON GITHUB`
+
+1. `git remote`
+2. `make a repository on github`
+3. `copy from existing push repository first command`
+4. `git remote add origin git@//..............<url>,,,,,,,,,,,,`
+
+`$ git branch -M main`
+
+`$ git push -u origin main`
+
+`BRANCHING ON GITHUB`
